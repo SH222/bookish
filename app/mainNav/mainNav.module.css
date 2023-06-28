@@ -1,0 +1,14 @@
+.mainNavDiv {
+  text-align: right;
+  padding: 10px 0px;
+}
+
+.mainNavDiv button {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 60px;
+  height: 30px;
+  font-size: 12px;
+  background: rgb(247, 247, 247);
+  margin-left: 10px;
+}

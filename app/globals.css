@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
 body {
   margin: 0;
+  box-sizing: content-box;
 }
 
 .container {
@@ -7,10 +10,14 @@ body {
   height: 100vh;
   margin: 0 auto;
   padding: 20px;
-  background-color: beige;
+  /* background-color: beige; */
 }
 
-header {
+.header {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 20px;
+
   display: flex;
   justify-content: space-between;
 }

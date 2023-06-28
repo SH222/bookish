@@ -1,7 +1,6 @@
-import Image from "next/image";
-import Logo from "../public/logo.png";
 import { connectDB } from "@/util/database"; // @/ 사이트 루트 경로부터 시작
 import BookList from "./bookList/page";
+import MainNav from "./mainNav/page";
 
 export default async function Home() {
   const db = (await connectDB).db("bookish");
@@ -10,12 +9,7 @@ export default async function Home() {
 
   return (
     <div className="container">
-      <header>
-        <Image src={Logo} alt="Bookish" width={200} />
-        <button className="profile-btn">
-          <span>이름</span>
-        </button>
-      </header>
+      <MainNav />
       <BookList result={result} />
     </div>
   );

@@ -5,7 +5,6 @@
 
 ## ⚙ <b>기술 스택</b>
 
-<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> 
 <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=Next.js&logoColor=white">
 <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
 <img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
@@ -53,9 +52,3 @@
 <!-- ##### + 예상 디자인 -->
 
 <!-- <img src="./public/main-design.jpg" width="600"> -->
-
-<br/><br/>
-
-## 🔉 <b>진행상황</b>
-
-- [x] 데이터베이스 연동
