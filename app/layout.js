@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
             <Image src={Logo} alt="Bookish" width={220} />
           </Link>
           <button className="profile-btn">
-            <span>id</span>
+            <span>MY</span>
           </button>
         </header>
         {children}

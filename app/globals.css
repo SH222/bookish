@@ -1,8 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+/* @font-face {
+  font-family: "NotoSansKR";
+  src: url("/public/fonts/NotoSansKR-Medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+} */
 
 body {
   margin: 0;
-  box-sizing: content-box;
+  box-sizing: border-box;
+  font-family: "NotoSansKR", sans-serif;
 }
 
 .container {
@@ -10,7 +16,7 @@ body {
   height: 100vh;
   margin: 0 auto;
   padding: 20px;
-  /* background-color: beige; */
+  font-family: "NotoSansKR", sans-serif;
 }
 
 .header {
@@ -20,4 +26,15 @@ body {
 
   display: flex;
   justify-content: space-between;
+}
+
+.profile-btn {
+  border: none;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+}
+.profile-btn:hover {
+  border: 2px solid rgb(189, 189, 189);
 }
