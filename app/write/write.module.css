@@ -1,0 +1,58 @@
+.bookId {
+  display: none;
+}
+
+.con {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.catecoryTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.titleImage,
+.title,
+.date,
+.writer,
+.keyword,
+.contents {
+  width: 50%;
+  height: 30px;
+  margin: 5px;
+  padding: 2px 4px;
+  border: none;
+  border-bottom: 1px solid gray;
+  border-radius: 0px;
+}
+
+.title {
+  /* font-weight: bold; */
+  font-size: 18px;
+}
+
+.titleImage:focus,
+.title:focus,
+.date:focus,
+.writer:focus,
+.keyword:focus {
+  outline: none;
+}
+
+.contents {
+  height: 300px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.submitBtn {
+  margin: 0 auto;
+  margin: 20px;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  background: rgb(235, 235, 235);
+}

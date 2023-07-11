@@ -6,8 +6,10 @@ import "../public/fonts/style.css";
 
 export default async function Home() {
   const db = (await connectDB).db("bookish");
-  let result = await db.collection("member").find().toArray();
-
+  let result = await db.collection("members").find().toArray();
+  // result.map((a) => {
+  //   a._id.toString();
+  // });
   return (
     <div className="container">
       <MainNav />
