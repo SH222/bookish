@@ -25,7 +25,6 @@ export default function BookList({ result }) {
           <span className={style.bookKeyword}>키워드</span>
           <span className={style.bookKeywordDetail}>{item.keyword}</span>
           <span className={style.bookDateDetail}></span>
-          {item.book_id.toString()}
           {/* <Link className={style.bookItemDelBtn} href="/"> */}
           <span
             className={style.itemDelBtn}

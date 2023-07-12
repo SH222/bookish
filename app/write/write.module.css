@@ -2,15 +2,74 @@
   display: none;
 }
 
-.con {
+.container {
   margin: 0 auto;
+  margin-top: 5px;
+  width: 60%;
+  height: 100vh;
   text-align: center;
+  /* background-color: red; */
 }
 
-.catecoryTitle {
+.form {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 60px 30px 40px 40px 400px 30px;
+  /* text-align: left; */
+}
+
+/* grid */
+
+.title {
+  /* background-color: blue; */
+  grid-column: span 3;
+  grid-row: 1 / 2;
+}
+
+.dateSpan {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.date {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.writerSpan {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+.writer {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+.keywordSpan {
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+}
+
+.keyword {
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+}
+
+.contents {
+  grid-column: 1 / 3;
+  grid-row: 5 / 6;
+}
+
+.submitBtnDiv {
+  grid-column: 2 / 3;
+  grid-row: 6 / 7;
+}
+
+/* .catecoryTitle {
   font-size: 20px;
   font-weight: bold;
-}
+} */
 
 .titleImage,
 .title,
@@ -18,41 +77,66 @@
 .writer,
 .keyword,
 .contents {
-  width: 50%;
+  /* width: 50%; */
   height: 30px;
   margin: 5px;
   padding: 2px 4px;
   border: none;
-  border-bottom: 1px solid gray;
   border-radius: 0px;
 }
 
 .title {
+  /* border-bottom: 1px solid rgba(196, 196, 196, 0.8); */
   /* font-weight: bold; */
-  font-size: 18px;
+  height: 50px;
+  font-size: 26px;
+  color: rgb(66, 66, 66);
+}
+
+.dateSpan,
+.date,
+.writerSpan,
+.writer,
+.keywordSpan,
+.keyword,
+.contents {
+  font-size: 14px;
+}
+
+.dateSpan,
+.writerSpan,
+.keywordSpan {
+  line-height: 40px;
+  text-align: left;
+  padding-left: 10px;
+  color: rgb(58, 58, 58);
 }
 
 .titleImage:focus,
 .title:focus,
 .date:focus,
 .writer:focus,
-.keyword:focus {
+.keyword:focus,
+.contents:focus {
   outline: none;
 }
 
 .contents {
-  height: 300px;
-  border: 1px solid gray;
-  border-radius: 5px;
-  padding: 10px;
+  height: 350px;
+  border-top: 1px solid rgba(196, 196, 196, 0.8);
+  /* background-color: aquamarine; */
+  /* border-radius: 5px; */
+  padding: 20px 6px;
+  font-family: "NotoSansKR", sans-serif;
 }
 
 .submitBtn {
   margin: 0 auto;
-  margin: 20px;
   border: none;
-  border-radius: 5px;
-  width: 100px;
+  border-radius: 50px;
+  font-size: 12px;
+  width: 60px;
   height: 30px;
-  background: rgb(235, 235, 235);
+  background: rgb(233, 233, 233);
+  float: right;
 }
