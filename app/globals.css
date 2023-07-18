@@ -41,3 +41,17 @@ body {
 .profile-btn:hover {
   border: 2px solid rgb(189, 189, 189);
 }
+
+/* myBtn */
+.myBtnContainer {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  right: 0;
+  top: 90px;
+  font-size: 12px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid wheat;
+  border-radius: 20px;
+}

@@ -3,6 +3,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import Image from "next/image";
 import Logo from "../public/imgs/logo.png";
+import MyBtn from "./myBtn";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
           <button className="profile-btn">
             <span>MY</span>
           </button>
+          <MyBtn />
         </header>
         {children}
       </body>

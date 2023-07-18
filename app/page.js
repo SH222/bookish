@@ -4,21 +4,12 @@ import MainNav from "./mainNav/page";
 import Sentence from "./sentence/page";
 import LoginModal from "./loginModal/page";
 import "../public/fonts/style.css";
-// import { useState } from "react";
+import Link from "next/link";
 
 export default async function Home() {
   const db = (await connectDB).db("bookish");
   let result = await db.collection("members").find().toArray();
-  // result.map((a) => {
-  //   a._id.toString();
-  // });
-
-  // 로그인 상태를 저장
-  // const [isLoggedIn, setIsLoggedIn] = useState(false);
-
-  // const handleLogin = () => {
-  //   setIsLoggedIn(true);
-  // };
+  console.log(result);
 
   return (
     <div className="container">

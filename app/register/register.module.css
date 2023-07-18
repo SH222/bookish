@@ -1,0 +1,86 @@
+.container {
+  text-align: center;
+}
+
+.container * {
+  margin-bottom: 10px;
+}
+.signupTitle {
+  font-weight: bold;
+  font-size: 40px;
+  margin: 30px 0px 50px 0px;
+}
+
+.nicknameInput,
+.emailInput,
+.passwordInput {
+  width: 240px;
+  height: 30px;
+  font-size: 18px;
+  padding: 4px 8px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 10px;
+}
+
+.nicknameInput::placeholder,
+.emailInput::placeholder,
+.passwordInput::placeholder {
+  color: rgb(196, 196, 196);
+  /* font-weight: 100; */
+}
+
+.emailInput:focus {
+  background: none;
+}
+
+/* input 자동으로 생기는 파란 배경 제거 */
+.nicknameInput:-webkit-autofill,
+.emailInput:-webkit-autofill,
+.passwordInput:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #fff inset;
+  -webkit-text-fill-color: #000;
+}
+/* .emailInput:-webkit-autofill,
+.emailInput:-webkit-autofill:hover,
+.emailInput:-webkit-autofill:focus,
+.emailInput:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+} */
+
+.emailSpan {
+  font-size: 12px;
+}
+
+.duplicateBtn,
+.submitBtn {
+  width: 260px;
+  height: 40px;
+  font-size: 14px;
+  color: rgb(37, 37, 37);
+  border: 1px solid rgb(224, 224, 224);
+  background-color: rgb(228, 228, 228);
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+
+.duplicateBtn {
+  margin-top: 10px;
+  font-weight: bold;
+  color: rgb(80, 80, 80);
+}
+
+.duplicateBtn:hover {
+  background-color: rgb(161, 161, 161);
+  color: rgb(248, 248, 248);
+}
+
+.submitBtn {
+  color: rgb(233, 233, 233);
+  font-weight: bold;
+  background-color: rgb(13, 13, 61);
+}
+
+.submitBtn:hover {
+  border: 1px solid rgb(44, 44, 185);
+  background-color: rgb(44, 44, 185);
+}

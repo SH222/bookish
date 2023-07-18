@@ -20,12 +20,10 @@ export default function BookList({ result }) {
           <span className={style.bookWriteDetail}>{item.write}</span>
           <br />
           <span className={style.bookDate}>날짜</span>
-          {/* <span className={style.bookDate}></span> */}
           <br />
           <span className={style.bookKeyword}>키워드</span>
           <span className={style.bookKeywordDetail}>{item.keyword}</span>
           <span className={style.bookDateDetail}></span>
-          {/* <Link className={style.bookItemDelBtn} href="/"> */}
           <span
             className={style.itemDelBtn}
             onClick={(e) => {
@@ -41,7 +39,6 @@ export default function BookList({ result }) {
           >
             <Image src={closeBtn} width={10} alt="delete" />
           </span>
-          {/* </Link> */}
         </div>
       ))}
     </div>

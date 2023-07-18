@@ -1,3 +1,3 @@
 export default function loginModal() {
-  return <div> loginModal</div>;
+  return <div className={style.container}> loginModal</div>;
 }
